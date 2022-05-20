@@ -7,7 +7,6 @@ public class MyList<T>
     private const int DefaultCapacity = 8;
     private int _count;
     private T[] _array;
-
     public int Count => _count;
     
     // public int Count 
