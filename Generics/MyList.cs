@@ -5,7 +5,6 @@ namespace Generics;
 public class MyList<T>
 {
     private const int DefaultCapacity = 8;
-    
     private int _count;
     private T[] _array;
 
